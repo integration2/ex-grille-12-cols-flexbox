@@ -1,0 +1,8 @@
+# Le gitignore permet de voiler les fichiers et dossiers que vous ne souhaitez pas voir dans votre dépôt Git.
+
+## Ignore les fichiers cachés indésirables provenant de macOS
+~*
+.DS_Store
+
+## Ignore le fichier de configuration de l'éditeur Visual Studio Code
+.vscode/
