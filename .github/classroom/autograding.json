@@ -1,0 +1,32 @@
+{
+  "tests": [
+    {
+      "name": "Grille - accroche (cols_8_de_12)",
+      "setup": "npm ci || npm install && npx playwright install chromium --with-deps",
+      "run": "node tests/run.js G1",
+      "timeout": 5,
+      "points": 5
+    },
+    {
+      "name": "Grille - nouvelles (3 articles cols_4_de_12)",
+      "setup": "",
+      "run": "node tests/run.js G2",
+      "timeout": 5,
+      "points": 5
+    },
+    {
+      "name": "Grille - centre (2 colonnes cols_6_de_12)",
+      "setup": "",
+      "run": "node tests/run.js G3",
+      "timeout": 5,
+      "points": 5
+    },
+    {
+      "name": "Grille - services (cols_4_de_12 et cols_8_de_12)",
+      "setup": "",
+      "run": "node tests/run.js G4",
+      "timeout": 5,
+      "points": 5
+    }
+  ]
+}

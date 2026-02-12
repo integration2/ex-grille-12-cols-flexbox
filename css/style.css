@@ -9,9 +9,9 @@
  * TABLE DES MATIERES
  * Normalize
  * Utilitaires
- * Charte typographique 
+ * Charte typographique
  * Grille
- * Mise en page 
+ * Mise en page
  */
 
 /* Normalize
@@ -30,8 +30,7 @@
    ========================================================================== */
 @import url(grille.css);
 
-
-/* Mise en page 
+/* Mise en page
    ========================================================================== */
 
 h1 {
@@ -60,19 +59,19 @@ header {
     text-align: right;
 }
 
-.nouvelle, 
-.service{
+.nouvelle,
+.service {
     background-color: var(--bg-couleur-contraste);
     border-radius: 0.5em;
     padding: 1rem;
     margin: 1rem auto;
 }
-.centre .col_6_de_12 {
+.centre .cols_6_de_12 {
     padding: 0.5em;
 }
 
-@media (min-width:600px) {
-    .centre .col_6_de_12 {
+@media (min-width: 600px) {
+    .centre .cols_6_de_12 {
         padding: 2em;
     }
 }
@@ -97,5 +96,4 @@ footer.bleed {
     left: 0;
     right: 0;
     text-align: center;
-
 }

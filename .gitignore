@@ -6,5 +6,7 @@
 
 ## Ignore le fichier de configuration de l'éditeur Visual Studio Code
 .vscode/
+node_modules/
 
+example/
 solution.html
